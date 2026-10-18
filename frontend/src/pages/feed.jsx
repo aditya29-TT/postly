@@ -11,7 +11,7 @@ const feed = () => {
         }
     ])
 useEffect(() => {
-    void axios.get("http://localhost:3000/posts")
+    void axios.get("https://postly-backend-jiiv.onrender.com/posts")
         .then((res)=>{
            setPosts(res.data.posts)
         })
