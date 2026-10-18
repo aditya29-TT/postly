@@ -1,5 +1,5 @@
 import React from 'react';
-import{BrowserRouter as Router , Routes , Route} from 'react-router-dom';
+import{BrowserRouter as Router , Routes , Route,navigate} from 'react-router-dom';
 import CreatePost from './pages/createpost.jsx';
 import Feed from './pages/feed.jsx';
 
